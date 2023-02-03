@@ -1,10 +1,10 @@
 import React from 'react';
 
-const StepComponent = ({ text, desc }) => {
+const StepComponent = ({ text, desc }, props) => {
   return (
     <>
       <h4>{text}</h4>
-      <p>{desc}</p>
+      <p className={props.class ? props.class : ''}>{desc}</p>
     </>
   );
 };

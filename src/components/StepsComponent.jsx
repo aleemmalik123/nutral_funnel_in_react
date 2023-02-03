@@ -27,6 +27,7 @@ const StepsComponent = () => {
                 text="Funnel hack"
                 desc="First we use insider information to find out what
                 supplement funnels are hot."
+                class="text-md-end text-center"
               />
             </div>
           </div>
